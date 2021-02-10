@@ -1,9 +1,10 @@
+vm :
+  size : medium
 jobs:
   include:
     - os: windows
       language: c
       arch: amd64
-      vm : medium
       script:
         - clang -coverage -O0 hello_world.c -o hello_world
         - ./hello_world
