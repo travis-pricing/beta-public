@@ -1,5 +1,4 @@
 os: linux
-dist: rhel8
 language: ruby
 rvm:
 - 2.5 # RVM should install 2.5.9 for RHEL 8
