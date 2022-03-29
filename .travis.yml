@@ -1,9 +1,9 @@
 os: linux
 language: ruby
 rvm:
-- 2.5 # RVM should install 2.5.9 for RHEL 8
-- 2.6 # RVM should install 2.6.8 for RHEL 8
-- 2.7 # should use default pre-installed 2.7.4
+- 2.5 
+- 2.6 
+- 2.7 
 arch: amd64
 script:
     - ruby hello_world.rb
